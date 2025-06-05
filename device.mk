@@ -39,3 +39,4 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
